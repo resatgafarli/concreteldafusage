@@ -7,5 +7,7 @@ SUBDIRS += \
     LDAFConcreteUsageTests \
     LDAFConcreteUsage
 
+OTHER_FILES += Resources/FirstPage.qml Resources/SecondPage.qml Resources/ThirdPage.qml
+
 
     
