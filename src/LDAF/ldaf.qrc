@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>ldafbrowser.qml</file>
-    </qresource>
-</RCC>
