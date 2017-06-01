@@ -9,6 +9,7 @@ CONFIG(debug, debug|release) {
     RCC_DIR =       $$OUTDIR/debug/rcc
     UI_DIR =        $$OUTDIR/debug/ui
     LIBS +=         "-L$$DESTDIR"
+    LIBS +=         "-L$$PROJECT_ROOT_DIRECTORY/ldaf/destdir/build/debug"
     COPYDIR =       $$DESTDIR
 
 } else {
@@ -18,5 +19,9 @@ CONFIG(debug, debug|release) {
     RCC_DIR =       $$OUTDIR/release/rcc
     UI_DIR =        $$OUTDIR/release/ui
     LIBS +=         "-L$$DESTDIR"
+    LIBS +=         "-L$$PROJECT_ROOT_DIRECTORY/ldaf/destdir/build/release/"
     COPYDIR =       $$DESTDIR
 }
+
+
+INCLUDEPATH += $$PROJECT_ROOT_DIRECTORY/ldaf/src/LDAF/

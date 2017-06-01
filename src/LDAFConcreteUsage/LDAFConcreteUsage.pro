@@ -1,4 +1,4 @@
-include(../globalpath.pri)
+include(../LDAFConcreteUsageSolution.pri)
 QT += core
 QT -= gui
 
