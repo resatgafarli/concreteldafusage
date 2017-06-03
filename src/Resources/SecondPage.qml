@@ -2,10 +2,12 @@ import QtQuick 2.6
 import QtQuick.Controls 1.4
 
 Item{
-    Button {
-         id: mybutton
-         text: "Go to third page"
-        onClicked: ldafbrowser.openPage("../../src/Resources/ThirdPage.qml","browserContentLoader")
-
-     }
+    TextArea {
+        anchors.fill: parent
+        width: 240
+        text: "Second Page Dynamic Loaded"
+        font.pointSize: 40
+        horizontalAlignment: TextEdit.AlignHCenter
+        verticalAlignment: TextEdit.AlignVCenter
+    }
 }
