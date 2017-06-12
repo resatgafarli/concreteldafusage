@@ -34,8 +34,8 @@ Item{
 
 
     Component.onCompleted: {
-        ldafbrowser.openPage("../../src/Resources/SecondPage.qml",firstPage,"loadLeftSide")
-        ldafbrowser.openPage("../../src/Resources/ThirdPage.qml",firstPage,"loadRightSide")
+        ldafbrowser.openPage("SecondPage.qml",firstPage,"loadLeftSide")
+        ldafbrowser.openPage("ThirdPage.qml",firstPage,"loadRightSide")
     }
 
 
